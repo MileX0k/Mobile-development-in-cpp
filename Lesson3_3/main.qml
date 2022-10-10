@@ -92,7 +92,6 @@ Window {
             State
             {
                 name: "yellow_circle"
-                when: area.pressed
                 PropertyChanges
                 {
                     target: task
@@ -110,7 +109,7 @@ Window {
                     target: task
                     x: 150
                     y: 220
-                    rotation: 45
+                    rotation: 135
                     radius: 0
                     color: "green"
                 }
